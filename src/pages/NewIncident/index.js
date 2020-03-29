@@ -47,8 +47,8 @@ export default function Register() {
 
           <h1>Cadastrar novo caso</h1>
           <p>
-            Descreva o caso detalhadamente para encontrar um herói para resolver
-            isso.
+            Descreva a oportunidade de voluntariado detalhadamente para
+            encontrar um alguém para resolver isso.
           </p>
 
           <Link className="back-link" to="/profile">

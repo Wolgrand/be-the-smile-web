@@ -47,7 +47,7 @@ export default function Register() {
           <h1>Cadastro</h1>
           <p>
             Faça seu cadastro, entre na plataforma e ajude pessoas a encontrarem
-            os casos da sua ONG.
+            oportunidades de serviços voluntários na sua organização.
           </p>
 
           <Link className="back-link" to="/">
@@ -57,7 +57,7 @@ export default function Register() {
         </section>
         <form onSubmit={handleRegister}>
           <input
-            placeholder="Nome da ONG"
+            placeholder="Nome da Organização"
             value={name}
             onChange={e => setName(e.target.value)}
           />
