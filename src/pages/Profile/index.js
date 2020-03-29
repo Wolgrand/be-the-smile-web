@@ -53,13 +53,13 @@ export default function Profile() {
         <span>Bem vinda, {ongName}</span>
 
         <Link className="button" to="/incidents/new">
-          Cadastrar novo caso
+          Cadastrar
         </Link>
         <button type="button">
           <FiPower onClick={handleLogout} size={18} color="#e02041" />
         </button>
       </header>
-      <h1>Casos Cadastrados</h1>
+      <h1>Oportunidades de Voluntariado Cadastradas</h1>
 
       <ul>
         {incidents.map(incident => (
