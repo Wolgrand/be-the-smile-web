@@ -45,7 +45,7 @@ export default function Register() {
         <section>
           <img src={logoImg} alt="Be The Hero" />
 
-          <h1>Cadastrar novo caso</h1>
+          <h1>Cadastrar nova oportunidade de voluntariado</h1>
           <p>
             Descreva a oportunidade de voluntariado detalhadamente para
             encontrar um alguém para resolver isso.
