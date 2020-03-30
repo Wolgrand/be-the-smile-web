@@ -38,6 +38,48 @@ html {
   margin-bottom: 32px;
 }
 
+.logon-container section h1 {
+  font-size: 28px;
+  margin-top: 32px;
+}
+
+.logon-container section p {
+  font-size: 20px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+
+  color: #737380;
+  line-height: 26px;
+}
+
+.user {
+  display: inline;
+  justify-content: space-between;
+  left: 50%;
+}
+
+.button-user {
+  width: 45%;
+  height: auto;
+  background: #e02041;
+  border: 0;
+  border-radius: 8px;
+  color: #fff;
+  font-weight: bold;
+  margin-top: 16px;
+  margin-right: 5%;
+
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 60px;
+  transition: filter 2s;
+}
+
+.button-user:hover {
+  filter: brightness(90%);
+}
+
 .logon-container section.form form a {
   display: flex;
   align-items: center;
@@ -57,7 +99,7 @@ html {
   opacity: 0.8;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 700px) {
   .logon-container {
     width: 100%;
     max-width: 1120px;
@@ -65,6 +107,7 @@ html {
     margin: 0 20px;
     padding: 20px;
     font-size: 62.5%;
+    text-align: center;
 
     display: flex;
     flex-direction: column;
@@ -91,5 +134,16 @@ html {
   .logon-container section.form form h1 {
     font-size: 24px;
     margin-bottom: 10px;
+  }
+
+  .link {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    color: #41414d;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: opacity 0.2s;
   }
 }

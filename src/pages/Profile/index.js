@@ -59,7 +59,7 @@ export default function Profile() {
           <FiPower onClick={handleLogout} size={18} color="#e02041" />
         </button>
       </header>
-      <h1>Oportunidades de Voluntariado Cadastradas</h1>
+      <h1>Oportunidades de Voluntariado Cadastradas para sua organização</h1>
 
       <ul>
         {incidents.map(incident => (
